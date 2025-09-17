@@ -16,6 +16,14 @@ const ProjectsSection = () => {
   const projects: Project[] = [
     {
       id: 1,
+      title: "Helpdesk-Agentic",
+      description: "Helpdesk-Agentic – Developed a full-stack helpdesk ticketing system with role-based workflows, allowing users to raise and track tickets while support agents manage and resolve them through an intuitive interface.",
+      technologies: [ "MERNStack"],
+      icon: <Database className="h-8 w-8 text-portfolio-primary" />,
+      githubUrl: "https://github.com/tulasiprasanna2005/helpdesk-agentic.git"
+    },
+    {
+      id: 2,
       title: "Daily Notes",
       description: "A personal note-taking application built using React.js, CSS, and Python, allowing users to create, update, and manage daily notes with a clean and responsive UI.",
       technologies: ["Python", "HTML", "CSS","FastAPI"],
@@ -23,7 +31,7 @@ const ProjectsSection = () => {
       githubUrl: "https://github.com/tulasiprasanna2005/daily-notes-app"
     },
     {
-      id: 2,
+      id: 3,
       title: "React-Chrono",
       description: "The Timeline Showcase App is a React-based project that visually presents chronological events using the powerful and customizable react-chrono library.",
       technologies: ["HTML","CSS","Javascript","React"],
@@ -31,7 +39,15 @@ const ProjectsSection = () => {
       githubUrl: "https://github.com/tulasiprasanna2005/react-chrono.git"
     },
     {
-      id: 3,
+      id: 4,
+      title: "React-Scientific-Calculator",
+      description: "A responsive calculator built with React.js supporting both basic and advanced functions like trigonometry and logarithms, with a clean and user-friendly interface. Designed using a modular component structure for better performance and scalability.",
+      technologies: ["React"],
+      icon: <Code className="h-8 w-8 text-portfolio-primary" />,
+      githubUrl: "https://github.com/tulasiprasanna2005/scientific-calculator.git"
+    },
+    {
+      id: 5,
       title: "Encrypt-Decryption",
       description: "The Encrypt-Decryption Tool is a Python-based application designed to securely encode and decode textual data using simple cryptographic techniques.",
       technologies: ["Python"],
@@ -39,7 +55,7 @@ const ProjectsSection = () => {
       githubUrl: "https://github.com/tulasiprasanna2005/encrypt-decrypt.git"
     },
     {
-      id: 4,
+      id: 6,
       title: "Student Semester Result DatabaseManagement System",
       description: "A Python-based application to manage, store, and retrieve student semester results efficiently using a simple and user-friendly interface.",
       technologies: ["Python"],
